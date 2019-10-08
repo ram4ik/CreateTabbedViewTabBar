@@ -10,7 +10,43 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello World")
+        TabView {
+            Text("First TAB")
+                .tabItem {
+                    VStack {
+                        Image(systemName: "guitars")
+                        Text("First")
+                    }
+            }
+            Text("Second TAB")
+                .tabItem {
+                    VStack {
+                        Image(systemName: "car.fill")
+                        Text("Second")
+                    }
+            }
+            Text("Third TAB")
+                .tabItem {
+                    VStack {
+                        Image(systemName: "pencil.tip")
+                        Text("Third")
+                    }
+            }
+            Text("Fourth TAB")
+                .tabItem {
+                    VStack {
+                        Image(systemName: "flame")
+                        Text("Fourth")
+                    }
+            }
+            Text("Fifth TAB")
+                .tabItem {
+                    VStack {
+                        Image(systemName: "trash")
+                        Text("Fifth")
+                    }
+            }
+        }
     }
 }
 
