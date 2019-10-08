@@ -11,7 +11,8 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-            Text("First TAB")
+            // Call first view here
+            FirstView()
                 .tabItem {
                     VStack {
                         Image(systemName: "guitars")
